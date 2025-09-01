@@ -1,5 +1,10 @@
 import Image from "next/image";
 import logo from "@/public/assets/Logo/Logo Fix 1.png";
+import HomeSect from "@/components/section/HomeSect";
+import About from "@/components/section/About";
+import Services from "@/components/section/Services";
+import Products from "@/components/section/Products";
+import Contact from "@/components/section/Contact";
 export default function Home() {
   return (
     // <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
@@ -102,6 +107,12 @@ export default function Home() {
 
     // Warna
     // #F5F0E6
-    <div className=""></div>
+    <main className="bg-[#faf1e1] min-h-screen font-raleway flex flex-col text-slate-700">
+      <HomeSect />
+      <About />
+      <Services />
+      <Products />
+      <Contact />
+    </main>
   );
 }
