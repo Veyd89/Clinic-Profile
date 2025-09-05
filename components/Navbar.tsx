@@ -23,7 +23,7 @@ const Navbar = () => {
         <ListNav>Home</ListNav>
         <ListNav>About</ListNav>
         <ListNav>Services</ListNav>
-        <ListNav>Products</ListNav>
+        {/* <ListNav>Products</ListNav> */}
         <ListNav>Contact</ListNav>
       </ul>
       <div className="">

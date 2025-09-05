@@ -3,7 +3,7 @@ import React from "react";
 
 const HomeSect = () => {
   return (
-    <section className="flex px-16">
+    <section className="flex">
       <header className="flex-1 box-border">
         <div className="pt-6 flex flex-col gap-2">
           <h1 className="font-cinzel text-left text-[#656e6d] tracking-widest font-semibold 2xl:text-9xl lg:text-7xl text-5xl">
