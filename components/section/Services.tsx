@@ -1,6 +1,6 @@
 import React from "react";
-import ExampleCard from "./ExampleCard";
-import Card from "./Card";
+import ExampleCard from "../ExampleCard";
+import Card from "../Card";
 
 const Services = () => {
   const cardLoop = (count: number) => {

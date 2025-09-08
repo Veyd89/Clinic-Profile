@@ -107,7 +107,7 @@ export default function Home() {
 
     // Warna
     // #F5F0E6
-    <main className="bg-gradient-to-b from-[#faf1e1] via-white to-[#faf1e1] min-h-screen font-raleway flex flex-col gap-20 px-16 text-slate-700">
+    <main className="bg-gradient-to-b from-[#faf1e1] via-white to-[#faf1e1] min-h-screen font-raleway flex flex-col gap-20 px-16 py-12 text-slate-700 ">
       <HomeSect />
       <About />
       <Services />

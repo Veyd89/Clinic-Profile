@@ -17,10 +17,10 @@ const HomeSect = () => {
             dolore iste itaque maiores.
           </p>
           <div className="flex gap-5">
-            <button className="w-full flex-1 mt-4 cursor-pointer font-cinzel max-w-fit px-6 py-3 rounded-full bg-[#452200] text-white font-semibold text-base ">
+            <button className="w-full flex-1 mt-4 cursor-pointer font-cinzel max-w-fit px-6 py-3 rounded-[10px] bg-[#452200] text-white font-semibold text-base ">
               Book Now
             </button>
-            <button className="w-full flex-1 mt-4 cursor-pointer font-cinzel max-w-fit px-6 py-3 rounded-full bg-[#452200] text-white font-semibold text-base ">
+            <button className="w-full flex-1 mt-4 cursor-pointer font-cinzel max-w-fit px-6 py-3 rounded-[10px] bg-[#452200] text-white font-semibold text-base ">
               Learn more
             </button>
           </div>

@@ -25,7 +25,7 @@ const Card = ({ name, linkImg, description }: cardProps) => {
         <h3 className="font-cinzel text-xl">{name}</h3>
         <p>{description}</p>
         <div className="w-full mt-4">
-          <button className="bg-[#452200] shadow-2xl  font-medium py-1 px-2 w-full text-white rounded-4xl">
+          <button className="bg-[#452200] shadow-2xl  font-medium py-1 px-2 w-full text-white rounded-[10px]">
             Detail
           </button>
         </div>
