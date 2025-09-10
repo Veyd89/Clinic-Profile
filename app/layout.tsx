@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Cinzel, Raleway } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 const cinzelFont = Cinzel({
   subsets: ["latin"],
@@ -42,6 +43,7 @@ export default function RootLayout({
       >
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
