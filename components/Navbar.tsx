@@ -1,11 +1,32 @@
 import Image from "next/image";
-import React from "react";
+// import React, { useEffect, useState } from "react";
 import ListNav from "./ListNav";
 
 const Navbar = () => {
+  // const sections = ["home", "about", "services", "contact"];
+  // const [active, setActive] = useState("home");
+  // useEffect(() => {
+  //   const observer = new IntersectionObserver(
+  //     (entries) => {
+  //       entries.forEach((entry) => {
+  //         if (entry.isIntersecting) {
+  //           setActive(entry.target.id);
+  //         }
+  //       });
+  //     },
+  //     { threshold: 0.6 } // 60% section terlihat → dianggap aktif
+  //   );
+
+  //   sections.forEach((id) => {
+  //     const el = document.getElementById(id);
+  //     if (el) observer.observe(el);
+  //   });
+
+  //   return () => observer.disconnect();
+  // }, []);
   return (
-    <nav className="w-full font-raleway tracking-wide z-100 bg-[#faf1e1] text-base text-slate-700">
-      <div className="container mx-auto flex justify-between items-center px-16 pt-2 pb-5">
+    <nav className="w-full fixed font-raleway tracking-wide z-100 bg-[#faf1e1] text-base text-slate-700">
+      <div className="container mx-auto flex justify-between items-center px-16 pt-2 pb-2">
         {/* Logo */}
         <Image
           src={"/assets/Logo/Logo Fix 1.png"}
@@ -17,11 +38,36 @@ const Navbar = () => {
 
         {/* Navigation Menu */}
         <ul className="flex gap-16 font-semibold items-center">
-          <ListNav>Home</ListNav>
-          <ListNav>About</ListNav>
-          <ListNav>Services</ListNav>
-          {/* <ListNav>Products</ListNav> */}
-          <ListNav>Contact</ListNav>
+          <ListNav>
+            {" "}
+            <a href="#home">Home</a>
+          </ListNav>
+          <ListNav>
+            {" "}
+            <a href="#about">About</a>
+          </ListNav>
+          <ListNav>
+            {" "}
+            <a href="#services">Services</a>
+          </ListNav>
+          {/* <ListNav> <a href="">Products</a></ListNav> */}
+          <ListNav>
+            {" "}
+            <a href="#contact">Contact</a>
+          </ListNav>
+
+          {/*  */}
+          {/* {sections.map((sec) => (
+            <a
+              key={sec}
+              href={`#${sec}`}
+              className={`px-3 py-1 rounded ${
+                active === sec ? "bg-blue-500 text-white" : "hover:bg-gray-200"
+              }`}
+            >
+              {sec.charAt(0).toUpperCase() + sec.slice(1)}
+            </a>
+          ))} */}
         </ul>
 
         {/* CTA Button */}

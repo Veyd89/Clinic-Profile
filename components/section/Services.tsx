@@ -27,7 +27,10 @@ const Services = () => {
   // ];
 
   return (
-    <section className="flex flex-col gap-6 items-center px-8">
+    <section
+      className="flex flex-col gap-6 items-center px-8 scroll-mt-28"
+      id="services"
+    >
       <h2 className="font-cinzel 2xl:text-5xl lg:text-4xl text-3xl font-medium uppercase">
         Services
       </h2>

@@ -5,7 +5,7 @@ import IconWrapper from "../IconWrapper";
 
 const About = () => {
   return (
-    <section className="flex flex-col gap-10">
+    <section className="flex flex-col gap-10 scroll-mt-28" id="about">
       <div className="flex flex-col items-center max-w-full xl:max-w-3xl gap-6 mx-auto">
         <h2 className="font-cinzel 2xl:text-5xl lg:text-4xl text-3xl font-semibold uppercase">
           About Us

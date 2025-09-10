@@ -39,7 +39,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${cinzelFont.variable} ${ralewayFont.variable} antialiased`}
+        className={`${cinzelFont.variable} ${ralewayFont.variable} antialiased scroll-smooth`}
       >
         <Navbar />
         {children}

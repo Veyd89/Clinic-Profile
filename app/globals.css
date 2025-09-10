@@ -4,6 +4,9 @@
   --font-cinzel: var(--font-cinzel);
   --font-raleway: var(--font-raleway);
 }
+html {
+  scroll-behavior: smooth;
+}
 /* :root {
   --background: #ffffff;
   --foreground: #171717;
