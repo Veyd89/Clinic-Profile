@@ -57,9 +57,9 @@ const Footer = () => {
           All Image by{" "}
           <a
             className="underline"
-            href="https://www.freepik.com/author/kroshka-nastya"
+            href="https://www.magnific.com/author/kroshka-nastya"
           >
-            https://www.freepik.com/author/kroshka-nastya
+            https://www.magnific.com/author/kroshka-nastya
           </a>
         </p>
       </div>
